@@ -6,7 +6,6 @@ import javax.persistence.EntityManager;
 import javax.persistence.NoResultException;
 import java.math.BigDecimal;
 import java.util.*;
-import java.util.stream.Collectors;
 
 public class Engine implements Runnable {
 	

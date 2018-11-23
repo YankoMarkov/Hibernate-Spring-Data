@@ -111,19 +111,20 @@ public class Engine implements Runnable {
 	 * Problem 7. Print All Minion Names
 	 */
 	private void printAllMinionNames() throws SQLException {
-		Map<Integer, String> minions = new HashMap<Integer, String>();
-		List<Integer> minionsId = new ArrayList<Integer>();
+		List<String> minions = new ArrayList<String>();
 		
 		String query = "SELECT m.id, m.name FROM minions AS m";
 		PreparedStatement preparedStatement = this.connection.prepareStatement(query);
 		ResultSet resultSet = preparedStatement.executeQuery();
 		
-		int count = 0;
-		
 		while (resultSet.next()) {
-			minions.put(resultSet.getInt(1), resultSet.getString(2));
+			minions.add(resultSet.getString(2));
 		}
-		// not finished
+		
+		for (int i = 0; i < minions.size() / 2; i++) {
+			System.out.println(minions.get(i));
+			System.out.println(minions.get(minions.size() - i - 1));
+		}
 	}
 	
 	/**

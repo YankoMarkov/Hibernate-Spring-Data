@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2a53ea3a-1be9-4dbf-a381-981c50eea7f8" name="Default Changelist" comment="" />
+    <list default="true" id="2a53ea3a-1be9-4dbf-a381-981c50eea7f8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../Exercise Introduction to Hibernate/introToHibernate/src/main/resources/META-INF/persistence.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/app/Engine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/Engine.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -107,6 +112,40 @@
       <usages-collector id="statistics.vcs.git.usages" />
       <usages-collector id="statistics.spring.boot.mvc.usages" />
     </session>
+    <session id="-1731596426">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="9" />
+          <entry key="project.open.time.0" value="4" />
+          <entry key="project.open.time.1" value="3" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="9" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="xml" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="XML" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="27" />
+          <entry key="xml" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="27" />
+          <entry key="XML" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
@@ -114,7 +153,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/app/Application.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="408">
-              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+              <caret line="24" selection-start-line="24" selection-end-line="24" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -125,13 +164,16 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/app/Engine.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="577">
-              <caret line="129" column="32" lean-forward="true" selection-start-line="129" selection-start-column="32" selection-end-line="129" selection-end-column="32" />
+            <state relative-caret-position="344">
+              <caret line="112" column="59" selection-start-line="112" selection-start-column="59" selection-end-line="112" selection-end-column="59" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="method#increaseAgeStoredProcedure#0;class#Engine#0" />
                 <element signature="method#printMinionsById#0;class#Engine#0" />
                 <element signature="method#increaseMinionsAge#0;class#Engine#0" />
                 <element signature="method#printMinions#0;class#Engine#0" />
+                <element signature="method#printAllMinionNames#0;class#Engine#0" />
+                <element signature="e#3071#3079#0" expanded="true" />
                 <element signature="method#removeVillain#0;class#Engine#0" />
                 <element signature="method#releasesMinions#0;class#Engine#0" />
                 <element signature="method#addForeignKey#0;class#Engine#0" />
@@ -153,15 +195,6 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/e72c2ee0-ca0a-4954-bd82-9a3291196a5b/console.sql">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" selection-start-line="15" selection-end-line="15" selection-end-column="52" />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -171,14 +204,17 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/f893b2ec-1bc1-4e5a-9c6d-74ab46a6892a/console.sql" />
         <option value="$PROJECT_DIR$/src/main/java/app/Aplication.java" />
         <option value="$PROJECT_DIR$/src/main/java/app/Application.java" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/e72c2ee0-ca0a-4954-bd82-9a3291196a5b/console.sql" />
+        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/app/Engine.java" />
       </list>
     </option>
@@ -197,54 +233,30 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="953" />
-    <option name="width" value="974" />
-    <option name="height" value="1047" />
+    <option name="x" value="-224" />
+    <option name="y" value="13" />
+    <option name="width" value="1400" />
+    <option name="height" value="964" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="introductingToDb" type="b2602c69:ProjectViewProjectNode" />
-              <item name="introductingToDb" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="introductingToDb" type="b2602c69:ProjectViewProjectNode" />
-              <item name="introductingToDb" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="introductingToDb" type="b2602c69:ProjectViewProjectNode" />
-              <item name="introductingToDb" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="introductingToDb" type="b2602c69:ProjectViewProjectNode" />
-              <item name="introductingToDb" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="introductingToDb" type="b2602c69:ProjectViewProjectNode" />
-              <item name="introductingToDb" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -256,7 +268,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Global Libraries" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
@@ -308,16 +320,26 @@
       <workItem from="1541007910366" duration="17704000" />
       <workItem from="1541092821074" duration="16463000" />
       <workItem from="1541116675389" duration="1766000" />
+      <workItem from="1541162920963" duration="356000" />
+      <workItem from="1541163311369" duration="87000" />
+      <workItem from="1541165065876" duration="543000" />
+      <workItem from="1541167685384" duration="106000" />
+      <workItem from="1541189181850" duration="921000" />
+      <workItem from="1541370465684" duration="36000" />
+      <workItem from="1541371182293" duration="205000" />
+      <workItem from="1541372315386" duration="22000" />
+      <workItem from="1541628209374" duration="393000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38507000" />
+    <option name="totallyTimeSpent" value="41176000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.15618336" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16791044" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -344,7 +366,7 @@
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
-      <window_info anchor="right" id="Database" order="7" visible="true" weight="0.15778251" />
+      <window_info anchor="right" id="Database" order="7" visible="true" weight="0.15724947" />
       <window_info anchor="right" id="Maven Projects" order="8" />
     </layout>
   </component>
@@ -354,33 +376,12 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/app/Engine.java</url>
-          <line>63</line>
-          <properties />
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-  </component>
   <component name="editorHistoryManager">
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/3245bd43-474f-4aa0-a4b0-2e6bd418050d/console.sql" />
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/c9ab127e-cb6c-44a5-8d55-4f5feb7f3dfa/console.sql" />
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/26f7e8d8-a0c6-468e-8661-168fc965a9c7/console.sql" />
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/f893b2ec-1bc1-4e5a-9c6d-74ab46a6892a/console.sql" />
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="10" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/16764a02-1a37-4e84-a230-e95e15ec8af3/console.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/16764a02-1a37-4e84-a230-e95e15ec8af3/console.sql" />
     <entry file="jar://$MAVEN_REPOSITORY$/mysql/mysql-connector-java/8.0.13/mysql-connector-java-8.0.13.jar!/com/mysql/cj/NativeSession.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="295">
@@ -444,17 +445,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/e72c2ee0-ca0a-4954-bd82-9a3291196a5b/console.sql">
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/e72c2ee0-ca0a-4954-bd82-9a3291196a5b/console.sql" />
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" selection-start-line="15" selection-end-line="15" selection-end-column="52" />
+        <state relative-caret-position="289">
+          <caret line="17" column="19" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/app/Application.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -463,13 +465,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/app/Engine.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="577">
-          <caret line="129" column="32" lean-forward="true" selection-start-line="129" selection-start-column="32" selection-end-line="129" selection-end-column="32" />
+        <state relative-caret-position="344">
+          <caret line="112" column="59" selection-start-line="112" selection-start-column="59" selection-end-line="112" selection-end-column="59" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="method#increaseAgeStoredProcedure#0;class#Engine#0" />
             <element signature="method#printMinionsById#0;class#Engine#0" />
             <element signature="method#increaseMinionsAge#0;class#Engine#0" />
             <element signature="method#printMinions#0;class#Engine#0" />
+            <element signature="method#printAllMinionNames#0;class#Engine#0" />
+            <element signature="e#3071#3079#0" expanded="true" />
             <element signature="method#removeVillain#0;class#Engine#0" />
             <element signature="method#releasesMinions#0;class#Engine#0" />
             <element signature="method#addForeignKey#0;class#Engine#0" />
@@ -556,7 +561,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>Maven: com.google.protobuf:protobuf-java:3.6.1</last-edited>
+          <last-edited>Maven: mysql:mysql-connector-java:8.0.13</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
