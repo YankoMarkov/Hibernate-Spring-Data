@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<products>
+    <product name="Parsley" price="519.06" celler="Joshua Murray"/>
+    <product name="Propranolol Hydrochloride" price="546.95" celler="Sandra Riley"/>
+    <product name="TERSI" price="554.91" celler="Rachel Johnson"/>
+    <product name="DAYWEAR PLUS MULTI PROTECTION TINTED MOISTURIZER" price="555.12" celler="Nicole Martinez"/>
+    <product name="PLANTAGO LANCEOLATA POLLEN" price="561.68" celler="Betty Lawson"/>
+    <product name="Echinacea Quartz Gum Support" price="570.08" celler="Patrick King"/>
+    <product name="AIR" price="581.69" celler="Benjamin Henry"/>
+    <product name="No7 Protect and Perfect Foundation Sunscreen Broad Spectrum SPF 15 Cool Ivory" price="616.19" celler="Rachel Johnson"/>
+    <product name="Glipizide" price="621.78" celler="Clarence Fowler"/>
+    <product name="Imipramine Hydrochloride" price="648.69" celler="Christine Gomez"/>
+    <product name="Childrens Allegra Allergy" price="650.97" celler="null Lawson"/>
+    <product name="Amitiza" price="666.58" celler="Benjamin Henry"/>
+    <product name="ENBREL" price="673.97" celler="null Bennett"/>
+    <product name="Pleo Lat" price="720.08" celler="null Stewart"/>
+    <product name="GOONG SECRET CALMING BATH" price="742.47" celler="Anna Clark"/>
+    <product name="Pollens - Weeds and Garden Plants, Nettle Urtica dioica" price="782.77" celler="null Harrison"/>
+    <product name="Isosorbide Mononitrate" price="789.91" celler="Gloria Alexander"/>
+    <product name="Azithromycin" price="813.87" celler="Joshua Murray"/>
+    <product name="Aquafresh" price="849.93" celler="Patricia Cooper"/>
+    <product name="Perrigo Benzoyl Peroxide" price="873.24" celler="Jacqueline Perez"/>
+    <product name="Levothyroxine Sodium" price="885.86" celler="Kathy Gilbert"/>
+    <product name="EPZICOM" price="895.65" celler="Emily Parker"/>
+    <product name="Aspirin" price="925.45" celler="Sandra Riley"/>
+    <product name="Glipizide and Metformin Hydrochloride" price="953.60" celler="Betty Ward"/>
+    <product name="Metformin Hydrochloride" price="953.99" celler="Thomas Snyder"/>
+    <product name="Homeopathic Rheumatism" price="967.08" celler="null Baker"/>
+    <product name="Dawn Ultra Antibacterial Hand" price="969.86" celler="Gary Stevens"/>
+    <product name="Smooth texture Orange flavor" price="976.65" celler="Benjamin Henry"/>
+    <product name="Retin-A MICRO" price="995.98" celler="Patricia Fuller"/>
+</products>

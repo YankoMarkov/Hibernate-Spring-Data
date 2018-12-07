@@ -1,6 +1,7 @@
 package softuni.bookshop.services;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.core.io.ClassPathResource;
 import org.springframework.stereotype.Service;
 import softuni.bookshop.models.Author;
 import softuni.bookshop.models.Book;
@@ -16,13 +17,13 @@ import static java.util.stream.Collectors.toMap;
 
 @Service
 public class AuthorServiceImpl implements AuthorService {
-	private final File authorsFilePath = new File("src/main/resources/files/authors.txt");
+	private final File authorsFilePath = new File("src/main/resources/files/authors.txt").getFile();
 	
 	private final AuthorRepository authorRepository;
 	private final FileUtil fileUtil;
 	
 	@Autowired
-	public AuthorServiceImpl(AuthorRepository authorRepository, FileUtil fileUtil) {
+	public AuthorServiceImpl(AuthorRepository authorRepository, FileUtil fileUtil) throws IOException {
 		this.authorRepository = authorRepository;
 		this.fileUtil = fileUtil;
 	}
